@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+    <path
+        android:pathData="M0,0h1080v1920h-1080z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="540"
+                android:centerY="960"
+                android:gradientRadius="1080"
+                android:type="radial">
+                <item
+                    android:color="#E61A1A"
+                    android:offset="0.0" />
+                <item
+                    android:color="#B30000"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Simple abstract shapes for flair -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M-100,200l400,-100l200,300z" />
+    <path
+        android:fillColor="#22FFFFFF"
+        android:pathData="M800,1600l300,100l-100,400z" />
+</vector>

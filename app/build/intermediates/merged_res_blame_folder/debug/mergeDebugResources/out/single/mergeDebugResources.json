@@ -1,18 +1,22 @@
 [
     {
-        "merged": "com.deinname.unoapp-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.deinname.unoapp-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-main-42:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.deinname.unoapp-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.deinname.unoapp-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.deinname.unoapp-debug-40:/drawable_main_menu_background.xml.flat",
+        "source": "com.deinname.unoapp-main-42:/drawable/main_menu_background.xml"
     },
     {
-        "merged": "com.deinname.unoapp-debug-40:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.deinname.unoapp-main-42:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.deinname.unoapp-debug-40:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.deinname.unoapp-main-42:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/isabellgoeller/.gradle/daemon/8.13/com.deinname.unoapp-main-42:/drawable/ic_launcher_foreground.xml"
     }
 ]
