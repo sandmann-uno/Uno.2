@@ -5,28 +5,32 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
+7-->INJECTED
 8        android:minSdkVersion="24"
+8-->INJECTED
 9        android:targetSdkVersion="34" />
+9-->INJECTED
 10
 11    <permission
-11-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/851ded985634329be16fcc36e855ee9f/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/4e6bc882daed3d039d353a64e0d0427d/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 12        android:name="com.deinname.unoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/851ded985634329be16fcc36e855ee9f/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/4e6bc882daed3d039d353a64e0d0427d/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/851ded985634329be16fcc36e855ee9f/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/4e6bc882daed3d039d353a64e0d0427d/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.deinname.unoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/851ded985634329be16fcc36e855ee9f/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/851ded985634329be16fcc36e855ee9f/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/4e6bc882daed3d039d353a64e0d0427d/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/4e6bc882daed3d039d353a64e0d0427d/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:4:5-20:19
+17-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:4:5-22:19
 18        android:allowBackup="true"
 18-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/851ded985634329be16fcc36e855ee9f/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.12.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/4e6bc882daed3d039d353a64e0d0427d/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
+21-->INJECTED
 22        android:icon="@mipmap/ic_launcher"
 22-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:6:9-43
 23        android:label="@string/app_name"
@@ -39,90 +43,94 @@
 27        android:theme="@style/Theme.UnoApp" >
 27-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:10:9-44
 28        <activity
-28-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:11:9-19:20
+28-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:11:9-21:20
 29            android:name="com.deinname.unoapp.MainActivity"
 29-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:12:13-41
-30            android:exported="true"
-30-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:13:13-36
-31            android:theme="@style/Theme.UnoApp" >
-31-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:14:13-48
-32            <intent-filter>
-32-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:15:13-18:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:16:17-69
-33-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:16:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:17:17-77
-35-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:17:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <provider
-39-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-40            android:name="androidx.startup.InitializationProvider"
-40-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
-41            android:authorities="com.deinname.unoapp.androidx-startup"
-41-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
-42            android:exported="false" >
-42-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
-43            <meta-data
-43-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
-44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-44-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
-45                android:value="androidx.startup" />
-45-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/732027ca3c0080e24f7cece58c0611a2/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
-46            <meta-data
-46-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/2eb0cf33443811ff4b2e12f3fb02b95d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
-47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-47-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/2eb0cf33443811ff4b2e12f3fb02b95d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
-48                android:value="androidx.startup" />
-48-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/2eb0cf33443811ff4b2e12f3fb02b95d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
-49            <meta-data
-49-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-50                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-50-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-51                android:value="androidx.startup" />
-51-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-52        </provider>
-53
-54        <receiver
-54-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-55            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-55-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-56            android:directBootAware="false"
-56-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-57            android:enabled="true"
-57-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-58            android:exported="true"
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-59            android:permission="android.permission.DUMP" >
-59-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-60            <intent-filter>
-60-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-61                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-62            </intent-filter>
-63            <intent-filter>
-63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-64                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-65            </intent-filter>
-66            <intent-filter>
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-67                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-68            </intent-filter>
-69            <intent-filter>
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-70                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/8.13/transforms/890b2378eb8f76aca77f313409d0cb19/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-71            </intent-filter>
-72        </receiver>
-73    </application>
-74
-75</manifest>
+30            android:layout_width="wrap_content"
+30-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:15:13-48
+31            android:layout_height="wrap_content"
+31-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:16:13-49
+32            android:exported="true"
+32-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:13:13-36
+33            android:theme="@style/Theme.UnoApp" >
+33-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:14:13-48
+34            <intent-filter>
+34-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:17:13-20:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:18:17-69
+35-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:18:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:19:17-77
+37-->/Users/isabellgoeller/Documents/GitHub/Uno.2/app/src/main/AndroidManifest.xml:19:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+43            android:authorities="com.deinname.unoapp.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.4.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/7aa5a1e4d768e9d59b4074c23283d25d/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/87ffb202f4e71853c8ed90c9b40f122f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/87ffb202f4e71853c8ed90c9b40f122f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/87ffb202f4e71853c8ed90c9b40f122f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+52-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+53                android:value="androidx.startup" />
+53-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+54        </provider>
+55
+56        <receiver
+56-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+57            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+57-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+58            android:directBootAware="false"
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+59            android:enabled="true"
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+60            android:exported="true"
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+61            android:permission="android.permission.DUMP" >
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+62            <intent-filter>
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+63                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+64            </intent-filter>
+65            <intent-filter>
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+66                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+67            </intent-filter>
+68            <intent-filter>
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+69                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+70            </intent-filter>
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+72                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/isabellgoeller/.gradle/caches/9.5.1/transforms/1c4dbb044a31fc6c91176d5e07d1f9eb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+73            </intent-filter>
+74        </receiver>
+75    </application>
+76
+77</manifest>

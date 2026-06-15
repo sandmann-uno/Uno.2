@@ -27,6 +27,8 @@
         android:theme="@style/Theme.UnoApp" >
         <activity
             android:name="com.deinname.unoapp.MainActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:exported="true"
             android:theme="@style/Theme.UnoApp" >
             <intent-filter>

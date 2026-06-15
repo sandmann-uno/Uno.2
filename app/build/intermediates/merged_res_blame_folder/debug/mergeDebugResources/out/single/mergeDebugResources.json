@@ -8,6 +8,10 @@
         "source": "com.deinname.unoapp-main-42:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
+        "merged": "com.deinname.unoapp-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.deinname.unoapp-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
         "merged": "com.deinname.unoapp-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.deinname.unoapp-main-42:/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -74,9 +78,5 @@
     {
         "merged": "com.deinname.unoapp-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.deinname.unoapp-main-42:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.deinname.unoapp-debug-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.deinname.unoapp-main-42:/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]
